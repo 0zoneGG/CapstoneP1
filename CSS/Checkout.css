@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 135px;
+    padding: 20px;
+    background-color: #f5f5f5;
+
+}
+header {
+
+    position: fixed;
+    background-color: #00796b;
+    top: 0;
+    height: 110px;
+    left: 0;
+    width: 100%;
+    float: right;
+    justify-content: space-between;
+    box-shadow: 0 5px 25px rgb(0, 0, 0);
+    padding: 0 25px; 
+    transition: 0.6s;
+  
+  }
+  header li img{
+    width: 158px;
+    height: 98px;
+    float: left;
+    margin-top: -50px ;
+     
+    }
+  header h1{
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+  }
+  header .navigation .menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-indent: 0;
+    padding: 0 50px;
+    height: 15px;
+    list-style: none;
+    margin-top: 0px;
+  
+    text-align: right;
+    user-select: none;
+  
+  }
+  h1 {
+    justify-content: center;
+  }
+
+form {
+    background-color: #fff;
+    margin: 100px;
+    padding: 20px;
+    width: 1200px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+h2 {
+    margin-top: 20px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
